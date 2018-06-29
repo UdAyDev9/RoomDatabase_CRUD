@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context= ".UpdateUserFragment"
+    android:orientation="vertical"
+    android:weightSum="9">
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:text="Add User"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#522"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        />
+    <EditText
+        android:id="@+id/update_user_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="User Id"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:layout_gravity="center"
+        android:inputType="number"/>
+
+
+    <EditText
+        android:id="@+id/update_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:hint="Name"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/update_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:hint="Mail"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/update_user"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="SAVE USER"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
